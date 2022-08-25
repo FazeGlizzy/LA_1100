@@ -27,8 +27,6 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 | 7    |      Kann       | Funktion |Kann einen Timer haben der nach einer bestimmten Zeit abläuft|
 | 8    |      Kann       | Funktion |Kann einen Modus haben wo du einen Buchstaben im ABC erraten musst|
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
-
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
@@ -43,12 +41,9 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 | 7.1  | Bei Programmstart | - | Timer mit ablaufzeit wird gestartet |
 | 8.1  | Bei Programmstart auswählen ob Zahlen oder Buchstaben | a oder b | Zahl oder Buchstaben wird gewählt |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
 ### 1.4 Diagramme
 
 ![RNG](https://user-images.githubusercontent.com/89085881/186608807-bb4d034e-27c4-4148-9091-e8ac0f4975e9.png)
-
 
 ## 2 Planen
 
