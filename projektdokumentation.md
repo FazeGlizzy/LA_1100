@@ -18,8 +18,14 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |      Muss       |Funktion| Eine zufällige Zahl soll erstellt werden |
-| ...  |                 |      |                                    |
+| 1    |      Muss       | Funktion |Eine zufällige Zahl muss erstellt werden |
+| 2    |      Muss       | Funktion |Man muss eine Zahl eingeben können       |
+| 3    |      Muss       | Funktion |Es muss erkennen ob die Zahl zu klein, zu gross, falsch oder richtig ist|
+| 4    |      Muss       | Funktion |Das Programm muss dem Nutzer eine weitere Chance (Eingabe) geben |
+| 5    |      Muss       | Funktion |Muss falls richtige Zahl erraten wurde, abfragen können ob das Programm wiederholt werden sollte |
+| 6    |      Muss       | Funktion |Das Programm muss wiederholt werden können |
+| 7    |      Kann       | Funktion |Kann einen Timer haben der nach einer bestimmten Zeit abläuft|
+| 8    |      Kann       | Funktion |Kann einen Modus haben wo du einen Buchstaben im ABC erraten musst|
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -27,8 +33,15 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  | Programm startet | - | Random Zahl wird erstellt |
+| 2.1  | Man wird gefragt | schreiben | Zahl wird gespeichert |
+| 3.1  | Zahl wird gecheckt | - | Anzeige ob Zahl zu klein/gross |
+| 3.2  | Zahl wird gecheckt | - | Anzeige ob Zahl zu falsch/richtig |
+| 4.1  | Man wird gefragt | weitere zahl | Das Programm wird wiederholt |
+| 5.1  | Richtige Zahl | - | fragen ob Programm wiederholen |
+| 6.1  | true bei 5.1 | - | Programm wird wiederholt |
+| 7.1  | Bei Programmstart | - | Timer mit ablaufzeit wird gestartet |
+| 8.1  | Bei Programmstart auswählen ob Zahlen oder Buchstaben | a oder b | Zahl oder Buchstaben wird gewählt |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -41,8 +54,16 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |  01.09.2022 | Ich | Random number programmieren | 1x45 |
+| 2.A  |  01.09.2022 | Ich | Eingabe Zahl | 1x45 |
+| 3.A  |  01.09.2022 | Ich | Erkennen ob Zahl zu gross/klein/falsch/richtig ist | 2x45 |
+| 4.A  |  08.09.2022 | Ich | Nutzer eine weitere Chance geben | 2x45 |
+| 5.A  |  08.09.2022 | Ich | Falls richtig, fragen ob nochmals | 1x45 |
+| 6.A  |  08.09.2022 | Ich | Ich kann das Programm wiederholen | 2x45 |
+| 7.A  |  15.09.2022 | Ich | Das Programm muss einen Timer haben | 3x45 |
+| 8.A  |  15.09.2022 | Ich | Random Letter programmieren | 3x45 |
+
+
 
 Total: 
 
