@@ -37,7 +37,7 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 | 2.1  | Man wird gefragt | schreiben | Zahl wird gespeichert |
 | 3.1  | Zahl wird gecheckt | - | Anzeige ob Zahl zu klein/gross |
 | 3.2  | Zahl wird gecheckt | - | Anzeige ob Zahl zu falsch/richtig |
-| 4.1  | Man wird gefragt | weitere zahl | Das Programm wird wiederholt |
+| 4.1  | Bei falscher Zahl | weitere zahl | Das Programm wird wiederholt |
 | 5.1  | Richtige Zahl | - | fragen ob Programm wiederholen |
 | 6.1  | true bei 5.1 | - | Programm wird wiederholt |
 | 7.1  | Bei Programmstart | - | Timer mit ablaufzeit wird gestartet |
