@@ -24,8 +24,9 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 | 4    |      Muss       | Funktion |Das Programm muss dem Nutzer eine weitere Chance (Eingabe) geben |
 | 5    |      Muss       | Funktion |Muss falls richtige Zahl erraten wurde, abfragen können ob das Programm wiederholt werden sollte |
 | 6    |      Muss       | Funktion |Das Programm muss wiederholt werden können |
-| 7    |      Kann       | Funktion |Kann einen Timer haben der nach einer bestimmten Zeit abläuft|
-| 8    |      Kann       | Funktion |Kann einen Modus haben wo du einen Buchstaben im ABC erraten musst|
+| 7    |      Muss       | Qualität |Muss Versuche anzeigen können |
+| 8    |      Kann       | Funktion |Kann einen Timer haben der nach einer bestimmten Zeit abläuft|
+| 9    |      Kann       | Funktion |Kann einen Modus haben wo du einen Buchstaben im ABC erraten musst|
 
 ### 1.3 Testfälle
 
@@ -38,8 +39,9 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 | 4.1  | Bei falscher Zahl | weitere zahl | Das Programm wird wiederholt |
 | 5.1  | Richtige Zahl | - | fragen ob Programm wiederholen |
 | 6.1  | true bei 5.1 | - | Programm wird wiederholt |
-| 7.1  | Bei Programmstart | - | Timer mit ablaufzeit wird gestartet |
-| 8.1  | Bei Programmstart auswählen ob Zahlen oder Buchstaben | a oder b | Zahl oder Buchstaben wird gewählt |
+| 7.1  | Richtige Zahl | - | Anzahl Versuche wird angezeigt |
+| 8.1  | Bei Programmstart | - | Timer mit ablaufzeit wird gestartet |
+| 9.1  | Bei Programmstart auswählen ob Zahlen oder Buchstaben | a oder b | Zahl oder Buchstaben wird gewählt |
 
 ### 1.4 Diagramme
 
@@ -55,8 +57,9 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 | 4.A  |  08.09.2022 | Ich | Nutzer eine weitere Chance geben | 2x45 |
 | 5.A  |  08.09.2022 | Ich | Falls richtig, fragen ob nochmals | 1x45 |
 | 6.A  |  08.09.2022 | Ich | Ich kann das Programm wiederholen | 2x45 |
-| 7.A  |  15.09.2022 | Ich | Das Programm muss einen Timer haben | 3x45 |
-| 8.A  |  15.09.2022 | Ich | Random Letter programmieren | 3x45 |
+| 7.A  |  08.09.2022 | Ich | Ich kann die Versuche anzeigen lassen | 1x45 |
+| 8.A  |  15.09.2022 | Ich | Das Programm muss einen Timer haben | 3x45 |
+| 9.A  |  15.09.2022 | Ich | Random Letter programmieren | 3x45 |
 
 
 
@@ -74,8 +77,17 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  | 08.09.2022      |  Steven Salie         |   45'            |  10'                |
+| 2.A  | 08.09.2022      |  Steven Salie         |   45'            |  10'                |
+| 3.A  | 08.09.2022      |  Steven Salie         |   45'            |  10'                |
+| 4.A  | 08.09.2022      |  Steven Salie         |   90'            |  10'                |
+| 6.A  | 08.09.2022      |  Steven Salie         |   90'            |  10'                |
+| 5.A  | 08.09.2022      |  Steven Salie         |   45'            |  10'                |
+| 7.A  | 08.09.2022      |  Steven Salie         |   45'            |  10'                |
+
+
+
+
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
