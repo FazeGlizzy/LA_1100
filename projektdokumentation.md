@@ -4,9 +4,9 @@ Steven Salie
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|   01.09    | 1.0.1   |  Eine Zufällige Zahl generien und sie versuchen zu erraten können |
+|   08.09    | 1.0.2     |  Das Prgramm sich wiederholen lassen und weitere eingaben tätigen                                                            |
+|   15.09    | 1.0.3   |   Feinschliff und einfügen von RandomLetterGenerator                                                           |
 
 ## 1 Informieren
 
@@ -71,7 +71,7 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+
 
 ## 4 Realisieren
 
