@@ -25,6 +25,7 @@ int i = 0;
 bool weiter = true;
 char auswahl = 0;
 
+//do lässt als erstes den Code laufen und dann werden die Bedingungen für eine wiederholung geprüft.
 do
 {
     Console.WriteLine("Wähle ein Essen aus [1|2|3]");
@@ -45,6 +46,7 @@ do
           break;
     }
     
+    //Hier wird das while zuerst geschrieben heisst, das while prüft immer am Anfang ob die Bedingungen stimmen.
     while(i < 5 || weiter == true)
     {
         Console.WriteLine("Du nimmst einen Biss");
@@ -59,19 +61,21 @@ do
 }while (antwort == false)
 ```
 
-* Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Ich konnte aus freiem Denken den obrigen Code erstellen was für mich ein sehr guter Indiz ist das ich die `do-while` schleife beherrsche
 
 # Reflexion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Was gut an meiner Arbeit lief:
+    Ich hatte schon sehr viel Vorwissen und konnte diese Pefekt anwenden und sehr schnell sehr viel Vortschritt           machen bei meiner Arbeit. Die Programmierung lief sehr gut und die Ideen kahmen sehr schnell zu verbesserungen.
 
-👎 und etwas, was nicht gut lief.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+👎 und etwas, was nicht gut lief:
+    Ich hatte durch die schnelle Arbeit sehr viel Zeit in der ich weniger gemacht habe da ich schon so schnell so         weit war und habe dann auch nicht mehr gearbeitet.
+
+
+**VBV**: Ich hätte mehr aus meiner freien Zeit machen sollen, da ich schneller fertig war.
