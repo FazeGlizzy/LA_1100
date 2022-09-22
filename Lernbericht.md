@@ -61,8 +61,7 @@ do
 }while (antwort == false)
 ```
 
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+![Pap do while](https://user-images.githubusercontent.com/89085881/191745540-4d8d637b-2b4a-40b9-9998-74103c67bce9.PNG)
 
 ## Verifikation
 
