@@ -15,16 +15,20 @@ Ich werde euch ich diesem Lernbericht erläutern wie man ein `do-while` statemen
 Um eine Schleife mit `do-while` zu verwenden, musst du nur eine Bedingung definieren, unter der bestimmter Code ausgeführt wird.
 Die Bedingung für eine do-while-Schleife kann ein einfacher Boolean sein.
 Die Schleife wird so lange ausgeführt, bis die Bedingung nicht mehr true ist (Wird später im Beispiel gezeigt).
+Du kannst auch eine neue Schleife innerhalb einer Schleife erstellen.
+Zudem kannst du als erstes den Code, der ausgeführt werden soll, definieren und danach die Bedingung. Dafür musst du zuerst do angeben, danach while mit der Bedingung.
+
 ```csharp
 
 bool antwort = false;
 int i = 0;
 bool weiter = true;
+char auswahl = 0;
 
 do
 {
     Console.WriteLine("Wähle ein Essen aus [1|2|3]");
-    char auswahl = Convert.ToChar(Console.ReadLine());
+    auswahl = Convert.ToChar(Console.ReadLine());
     
     switch(auswahl)
     {
@@ -53,6 +57,7 @@ do
     antwort = Convert.ToBoolean(Console.ReadLine);
     
 }while (antwort == false)
+```
 
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
