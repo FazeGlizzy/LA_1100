@@ -102,7 +102,7 @@ Ich habe mich sehr zum Ende des Projekts dazu entschieden das ich den Timer nich
 | 8.1  |  22.09.2022     |    NOK      |   Steven Salie     |
 | 9.1  |  22.09.2022     |    OK      |   Steven Salie     |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Fast alles hat perfekt funktioniert aber da ich mich entschieden habe das ich keinen Timer machen möchte, istt 8.1 NOK.
 
 ### 5.2 Exploratives Testen
 
