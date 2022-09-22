@@ -8,11 +8,51 @@ das du erraten kannst welche Zahl / Buchstabe generiert wurde, ob du höher / ti
 
 ## Was habe ich gelernt?
 
-Ich werde euch ich diesem Lernbericht erläutern wie man ein
+Ich werde euch ich diesem Lernbericht erläutern wie man ein `do-while` statement benutzt und für was es zu gebrauchen ist.
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+Um eine Schleife mit `do-while` zu verwenden, musst du nur eine Bedingung definieren, unter der bestimmter Code ausgeführt wird.
+Die Bedingung für eine do-while-Schleife kann ein einfacher Boolean sein.
+Die Schleife wird so lange ausgeführt, bis die Bedingung nicht mehr true ist (Wird später im Beispiel gezeigt).
+```csharp
+
+bool antwort = false;
+int i = 0;
+bool weiter = true;
+
+do
+{
+    Console.WriteLine("Wähle ein Essen aus [1|2|3]");
+    char auswahl = Convert.ToChar(Console.ReadLine());
+    
+    switch(auswahl)
+    {
+        case 1:
+          Console.WriteLine("Du hast Kuchen bekommen");
+          break;
+        
+        case 2:
+          Console.WriteLine("Du hast Pizza bekommen");
+          break;
+        
+        case 3:
+          Console.WriteLine("Du hast Burger bekommen");
+          break;
+    }
+    
+    while(i < 5 || weiter == true)
+    {
+        Console.WriteLine("Du nimmst einen Biss");
+        Console.WriteLine("Willst du einen weiteren nehmen? [true|false]");
+        weiter = Convert.ToBoolean(Console.ReadLine());
+
+    }
+    
+    Console.WriteLine("Willst du etwas anderes probieren? [true|false]")
+    antwort = Convert.ToBoolean(Console.ReadLine);
+    
+}while (antwort == false)
 
 * Eine textliche Beschreibung
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
