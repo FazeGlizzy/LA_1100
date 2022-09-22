@@ -65,13 +65,10 @@ Random Number Generator wo am geschickt erraten muss welche Zahl generiert wurde
 
 Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
-
+Ich habe mich sehr zum Ende des Projekts dazu entschieden das ich den Timer nicht durchführen werde da ich gedacht habe er sei viel zu schwer und ich die Idee des RandomLetterGenerators besser fand.
 
 ## 4 Realisieren
 
@@ -84,12 +81,10 @@ Total:
 | 6.A  | 08.09.2022      |  Steven Salie         |   90'            |  10'                |
 | 5.A  | 08.09.2022      |  Steven Salie         |   45'            |  10'                |
 | 7.A  | 08.09.2022      |  Steven Salie         |   45'            |  10'                |
+| 9.A  | 15.09.2022      |  Steven Salie         |   3x45'            |  3x45'                |
 
 
 
-
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
@@ -97,8 +92,15 @@ Total:
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |  22.09.2022     |    OK      |   Steven Salie     |
+| 2.1  |  22.09.2022     |    OK      |   Steven Salie     |
+| 3.1  |  22.09.2022     |    OK      |   Steven Salie     |
+| 4.1  |  22.09.2022     |    OK      |   Steven Salie     |
+| 5.1  |  22.09.2022     |    OK      |   Steven Salie     |
+| 6.1  |  22.09.2022     |    OK      |   Steven Salie     |
+| 7.1  |  22.09.2022     |    OK      |   Steven Salie     |
+| 8.1  |  22.09.2022     |    NOK      |   Steven Salie     |
+| 9.1  |  22.09.2022     |    OK      |   Steven Salie     |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
